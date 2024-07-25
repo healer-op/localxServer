@@ -1,7 +1,7 @@
 const net = require('net');
 const crypto = require('crypto');
 
-const port = 8000;
+const port = process.env.PORT || 8321;
 
 console.log(`Running on ${port}`)
 
